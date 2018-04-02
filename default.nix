@@ -36,6 +36,9 @@ pkgs.stdenv.mkDerivation rec {
   # Specifically don't want fixups for this package:
   phases = [ "unpackPhase" "buildPhase" "installPhase" ];
 
+  # Tell TeX where we keep STY files:
+  TEXINPUTS = "${src}/vendor/gitdags";
+
   # Additional system dependencies:
   buildInputs = with pkgs; [
     inkscape # For SVG -> PDF
@@ -49,7 +52,8 @@ pkgs.stdenv.mkDerivation rec {
 
     # TeX:
     (texlive.combine {
-      inherit (texlive) scheme-small collection-binextra beamer;
+      inherit (texlive) scheme-small collection-binextra beamer
+        xcolor-solarized ;
     })
 
     # For packaging:
