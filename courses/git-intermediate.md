@@ -42,30 +42,29 @@ TBD
 Branching
 =========
 
-TBD
+  <<(../content/branches/basics.md)
 
 Merging
 =======
 
+tbd
 
-TBD
-
-Rebasing
+rebasing
 ========
 
-TBD
+tbd
 
 Resetting Trees
 ===============
 
-TBD
+tbd
 
 Commit History
 ==============
 
-TBD
+tbd
 
-## Modifying Existing Commits
+### Modifying Existing Commits
 
 TBD
 

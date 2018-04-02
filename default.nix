@@ -12,17 +12,14 @@ let
   # Which version of Edify to use:
   edifyRepo = {
     url    = "git://git.devalot.com/edify.git";
-    rev    = "a5a9b01a339fcb20440189063e114fc3a76c1892";
-    sha256 = "067j09lfl0zmc1hmc9m0pr45n0j5614mzqm3km478c8h6zldp9br";
+    rev    = "b2fac3d3e1bbc7b8816ce9aef88dcac2cd4811e8";
+    sha256 = "1c2slmwj7y7m2ha8jb184jhcxawk84xyw2m3n1k4ckwbrc5zp4q8";
   };
 
   # Load the host's nixpkgs, then the pinned version:
   hostPkgs   = import <nixpkgs> {};
   pinnedPkgs = import (hostPkgs.fetchFromGitHub pinned) {};
-
-  # Fetch edify from another repository:
-  edifyDrv = import "${pinnedPkgs.fetchgit edifyRepo}/edify.nix";
-  edifyPkg = pinnedPkgs.haskellPackages.callPackage edifyDrv {};
+  edifyPkg   = import (pinnedPkgs.fetchgit edifyRepo) { pkgs = pinnedPkgs; };
 
 in
 { pkgs ? pinnedPkgs
@@ -37,7 +34,7 @@ pkgs.stdenv.mkDerivation rec {
   phases = [ "unpackPhase" "buildPhase" "installPhase" ];
 
   # Tell TeX where we keep STY files:
-  TEXINPUTS = "${src}/vendor/gitdags";
+  TEXINPUTS = "${src}/vendor/gitdags:";
 
   # Additional system dependencies:
   buildInputs = with pkgs; [
@@ -53,7 +50,7 @@ pkgs.stdenv.mkDerivation rec {
     # TeX:
     (texlive.combine {
       inherit (texlive) scheme-small collection-binextra beamer
-        xcolor-solarized ;
+        xcolor-solarized pgf standalone;
     })
 
     # For packaging:
