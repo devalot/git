@@ -42,7 +42,7 @@ TBD
 Branching
 =========
 
-  <<(../content/branches/basics.md)
+  <<(../content/branches/review.md)
 
 Merging
 =======

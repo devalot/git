@@ -1,0 +1,26 @@
+\documentclass{standalone}
+\usepackage{tikz}
+\usepackage{gitdags}
+\begin{document}
+  \centering
+  \begin{tikzpicture}
+    % Commit DAG
+    \gitDAG[grow right sep = 2em]{
+      A -- B -- {
+        C,
+        D -- E,
+      }
+    };
+    \gitbranch
+      {master}           % node name and text
+      {above=of C}       % node placement
+      {C}                % target
+    \gitbranch
+      {feature}          % node name and text
+      {above=of E}       % node placement
+      {E}                % target
+    \gitHEAD
+      {above=of feature} % node placement
+      {feature}          % target
+  \end{tikzpicture}
+\end{document}
