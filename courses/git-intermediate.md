@@ -37,48 +37,90 @@ The source code for this course can be found at the following URL:
 Git Review
 ==========
 
-TBD
+  * Git Object Types
+  * Index vs. Staging vs. Working
+  * Commit Hashes
+  * Basic Git workflow
 
 Branching
 =========
 
   <<(../content/branches/review.md)
 
+  * Diffing branches
+
+  * Visualizing branches
+
 Merging
 =======
 
-tbd
+  * Merging one branch into another
 
-rebasing
+  * Resolving merge conflicts
+
+  * Merge strategies
+
+  * Merging remote branches
+
+Rebasing
 ========
 
-tbd
+  * A word of caution
+
+  * Rebasing branches
+
+  * Rebasing remote branches
+
+  * Pulling with rebasing
 
 Resetting Trees
 ===============
 
-tbd
+  * Introduction to resetting
+
+  * Soft resetting
+
+  * Hard resetting
 
 Commit History
 ==============
 
-tbd
+  * Reviewing the commit history
 
-### Modifying Existing Commits
+  * A word of caution
 
-TBD
+  * Amending the last commit
 
-Debugging via Bisecting
+  * Squashing commits
+
+Git as a Debugging Tool
 =======================
 
-TBD
+  * Git blame
+
+  * Manual bisecting
+
+  * Automated bisecting
 
 Workflow Management
 ===================
 
-TBD
+  * Introduction to workflow management
+
+  * Topic branches and release branches
+
+  * Vincent's branching model and gitflow
+    - http://nvie.com/posts/a-successful-git-branching-model/
+    - https://jeffkreeftmeijer.com/git-flow/
+    - https://github.com/nvie/gitflow
 
 Remote Repositories
 ===================
 
-TBD
+  * Listing remotes
+
+  * Adding remotes
+
+  * Fetching from remotes
+
+  * Creating tracking branches
