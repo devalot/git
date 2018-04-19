@@ -37,19 +37,15 @@ The source code for this course can be found at the following URL:
 Git Review
 ==========
 
-  * Git Object Types
-  * Index vs. Staging vs. Working
-  * Commit Hashes
-  * Basic Git workflow
+  <<(../content/core/basics.md)
 
 Branching
 =========
 
   <<(../content/branches/review.md)
-
-  * Diffing branches
-
-  * Visualizing branches
+  <<(../content/branches/diff.md)
+  <<(../content/branches/visualizing.md)
+  <<(../content/branches/deleting.md)
 
 Merging
 =======
@@ -82,8 +78,8 @@ Resetting Trees
 
   * Hard resetting
 
-Commit History
-==============
+Reviewing and Editing the Commit History
+========================================
 
   * Reviewing the commit history
 

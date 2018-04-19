@@ -1,0 +1,24 @@
+msc {
+  # Description:
+  #
+  # Shows how changes move from the working directory to the staging
+  # area then to the repository.
+
+  # The entities:
+  w [label="1"],
+  s [label="2"],
+  r [label="3"];
+
+  # Labels:
+  w box w [label="Working Directory", textcolour="#002b36", textbgcolour="#fdf6e3"],
+  s box s [label="Staging Area", textcolour="#002b36", textbgcolour="#fdf6e3"],
+  r box r [label="Repository", textcolour="#002b36", textbgcolour="#fdf6e3"];
+
+  # Connections:
+  w rbox w [label="Make Local Changes", textcolour="#fdf6e3", textbgcolour="#dc322f"];
+  w =>   w;
+  w rbox s [label="git add", textcolour="#fdf6e3", textbgcolour="#268bd2"];
+  w =>   s;
+  s rbox r [label="git commit", textcolour="#fdf6e3", textbgcolour="#859900"];
+  s =>   r;
+}

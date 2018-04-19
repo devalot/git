@@ -1,0 +1,27 @@
+digraph commit {
+  // Defaults:
+  graph [];
+  node  [ shape=record
+        , style=filled
+        , fontcolor="#fdf6e3"
+        , fillcolor="#cb4b16"
+        ];
+
+  // Nodes:
+  prev   [ label="{Previous Commit|1dc726b}"
+         , color="#93a1a1"
+         , fontcolor="#93a1a1"
+         , fillcolor=white
+         ];
+
+  commit [ label="{Commit|f259764}", fillcolor="#859900" ];
+  tree   [ label="{Tree|d32f088}",   fillcolor="#268bd2" ];
+  fileA  [ label="{main.c|c6122fd}" ];
+  fileB  [ label="{conf.h|c5774c8}" ];
+
+  // Connections:
+  commit -> prev [color="#93a1a1"];
+  commit -> tree;
+  tree -> fileA;
+  tree -> fileB;
+}

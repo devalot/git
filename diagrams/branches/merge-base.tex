@@ -1,0 +1,23 @@
+\documentclass{standalone}
+\usepackage{tikz}
+\usepackage{gitdags}
+\begin{document}
+  \centering
+  \begin{tikzpicture}
+    % Commit DAG
+    \gitDAG[grow right sep = 2em]{
+      29c4da1 -- f259764 -- {
+        b8f2277,
+        72a4a7d -- a18ef32,
+      }
+    };
+    \gitbranch
+      {master}           % node name and text
+      {above=of b8f2277} % node placement
+      {b8f2277}          % target
+    \gitbranch
+      {feature}          % node name and text
+      {above=of a18ef32} % node placement
+      {a18ef32}          % target
+  \end{tikzpicture}
+\end{document}

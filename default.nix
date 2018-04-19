@@ -12,8 +12,8 @@ let
   # Which version of Edify to use:
   edifyRepo = {
     url    = "git://git.devalot.com/edify.git";
-    rev    = "b2fac3d3e1bbc7b8816ce9aef88dcac2cd4811e8";
-    sha256 = "1c2slmwj7y7m2ha8jb184jhcxawk84xyw2m3n1k4ckwbrc5zp4q8";
+    rev    = "c68b642890801b8ae4390ab1025f4488f1c59762";
+    sha256 = "0v30y6ia3mcqfd29mfzrik4jfgb2m0rrjb046cw86rfiqsg8dsaq";
   };
 
   # Load the host's nixpkgs, then the pinned version:
@@ -40,6 +40,7 @@ pkgs.stdenv.mkDerivation rec {
   buildInputs = with pkgs; [
     inkscape # For SVG -> PDF
     graphviz_2_32 # For DOT -> PDF
+    mscgen # For MSC -> PDF
 
     # Markdown -> PDF:
     edifyPkg
