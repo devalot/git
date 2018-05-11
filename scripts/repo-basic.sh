@@ -41,6 +41,7 @@ git commit -m "Add a version number"
 ################################################################################
 # Add a newline after the version number:
 sed -i 's/version %s/version %s\\n/' main.c
+git_set_author sbee
 git add main.c
 git commit -m "Add a missing newline character"
 
@@ -48,6 +49,6 @@ git commit -m "Add a missing newline character"
 # Change "hello" to "Hello World!":
 git checkout master
 git_set_author jdoe
-sed -i 's/hello/Hello World!/' main.c
+sed -i 's/hello/Hello Everyone/' main.c
 git add main.c
 git commit -m "Add a proper greeting message"

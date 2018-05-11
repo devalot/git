@@ -37,6 +37,8 @@ The source code for this course can be found at the following URL:
 Git Review
 ==========
 
+  * FIXME: Centralized vs. Distributed Repositories
+
   <<(../content/core/basics.md)
 
 Branching
@@ -50,44 +52,53 @@ Branching
 Merging
 =======
 
-  * Merging one branch into another
-
-  * Resolving merge conflicts
-
-  * Merge strategies
-
-  * Merging remote branches
+  <<(../content/merging/basics.md)
+  <<(../content/merging/conflicts.md)
+  <<(../content/merging/advanced.md)
+  <<(../content/merging/remotes.md)
 
 Rebasing
 ========
 
-  * A word of caution
-
-  * Rebasing branches
-
-  * Rebasing remote branches
-
-  * Pulling with rebasing
+  <<(../content/rebasing/basics.md)
+  <<(../content/rebasing/from-ancestor.md)
+  <<(../content/rebasing/from-remote.md)
+  <<(../content/rebasing/interactive.md)
+  <<(../content/rebasing/trouble.md)
 
 Resetting Trees
 ===============
 
-  * Introduction to resetting
-
-  * Soft resetting
-
-  * Hard resetting
+  <<(../content/resetting/basic.md)
+  <<(../content/resetting/soft.md)
+  <<(../content/resetting/mixed.md)
+  <<(../content/resetting/hard.md)
+  <<(../content/resetting/uses.md)
 
 Reviewing and Editing the Commit History
 ========================================
 
-  * Reviewing the commit history
+  <<(../content/history/basic.md)
+  <<(../content/history/mistakes.md)
+  <<(../content/history/squash.md)
 
-  * A word of caution
+Improving Your Daily Workflow
+=============================
 
-  * Amending the last commit
+  * Interactive Staging
 
-  * Squashing commits
+  * Stashing Changes
+
+  * Ignoring Files
+
+  * Aliases
+
+Working with Third-Party Code
+=============================
+
+  * Submodules
+
+  * Subtrees
 
 Git as a Debugging Tool
 =======================
@@ -110,6 +121,8 @@ Workflow Management
     - https://jeffkreeftmeijer.com/git-flow/
     - https://github.com/nvie/gitflow
 
+  * Tagging
+
 Remote Repositories
 ===================
 
@@ -120,3 +133,15 @@ Remote Repositories
   * Fetching from remotes
 
   * Creating tracking branches
+
+
+Advanced Concepts
+=================
+
+  * Git Object Types
+
+  * Content-Addressable Names
+
+  * Pack Files
+
+  * Bundles
