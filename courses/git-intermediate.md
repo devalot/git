@@ -85,29 +85,23 @@ Reviewing and Editing the Commit History
 Improving Your Daily Workflow
 =============================
 
-  * Interactive Staging
+  <<(../content/workflow/interactive-staging.md)
+  <<(../content/workflow/stashing.md)
+  <<(../content/workflow/ignoring.md)
+  <<(../content/workflow/aliases.md)
 
-  * Stashing Changes
+Including External Repositories
+===============================
 
-  * Ignoring Files
-
-  * Aliases
-
-Working with Third-Party Code
-=============================
-
-  * Submodules
-
-  * Subtrees
+  <<(../content/external/submodules.md)
+  <<(../content/external/subtrees.md)
+  <<(../content/external/comparing.md)
 
 Git as a Debugging Tool
 =======================
 
-  * Git blame
-
-  * Manual bisecting
-
-  * Automated bisecting
+  <<(../content/debugging/blame.md)
+  <<(../content/debugging/bisecting.md)
 
 Workflow Management
 ===================

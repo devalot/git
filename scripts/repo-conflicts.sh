@@ -27,5 +27,9 @@ git add main.c
 git commit -m "Print the version number, fix greeting"
 
 ################################################################################
+# Add a tag to get back to this point.
+git tag conflict-start
+
+################################################################################
 # Go back to master.
 git checkout master

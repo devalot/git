@@ -52,3 +52,13 @@ git_set_author jdoe
 sed -i 's/hello/Hello Everyone/' main.c
 git add main.c
 git commit -m "Add a proper greeting message"
+
+################################################################################
+# Place a tag on the feature branch as a marker for where to do merges.
+git checkout feature
+git_set_author sbee
+git tag merge-start
+
+################################################################################
+# Back to master.
+git checkout master

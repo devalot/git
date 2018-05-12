@@ -49,7 +49,14 @@ into another branch through merging.
 
   #. Write a commit message in your text editor
 
-### Exercise: Merging a Branch ###
+### Exercise: Merging a Branch ### {#ex-merge}
+
+<div class="notes">
+
+Goal: Practice merging one branch into another and examining the
+resulting merge commit.
+
+</div>
 
   #. Change to the following directory:
 

@@ -16,6 +16,13 @@ TBD
 -->
 
 
-### Exercise: Squashing Commits ###
+### Exercise: Squashing Commits ### {#ex-squash}
 
-TBD
+<div class="notes">
+
+Goal: Practice using `git rebase` to squash several commits into a
+single commit.
+
+</div>
+
+(Instructions forthcoming.)

@@ -47,7 +47,19 @@ strategy:
 $ git merge -Xours feature
 ~~~
 
-### Exercise: Automatically Resolving Conflicts ###
+### Exercise: Automatically Resolving Conflicts ### {#ex-merge}
+
+<div class="notes">
+
+Goal: Practice advanced merging where we pass options to control the
+merge strategy.
+
+We'll be using the `ours` flag and passing it to the recursive
+strategy so all conflicts are resolved by choosing the hunk present in
+`HEAD`.  Then we'll restart the exercise, this time using the `theirs`
+conflict resolution strategy.
+
+</div>
 
   #. Change to the following directory:
 

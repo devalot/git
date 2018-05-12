@@ -29,6 +29,17 @@ TBD
 
 -->
 
+### Exercise: Amending the Last Commit ### {#ex-amend}
+
+<div class="notes">
+
+Goal: Practice amending the previous commit in order to reword a
+commit message.
+
+</div>
+
+(Instructions forthcoming.)
+
 ### Unstaging a Modification or File ###
 
 TBD
@@ -43,6 +54,18 @@ TBD
 
 -->
 
+### Exercise: Unstaging a File ### {#ex-unstage}
+
+<div class="notes">
+
+Goal: Practice using `git reset` to unstage a file that we no longer
+want to be part of the next commit.  Later we'll see how to create an
+alias to act as a shortcut for this common task.
+
+</div>
+
+(Instructions forthcoming.)
+
 ### Restoring a Modified File ###
 
 TBD
@@ -52,3 +75,36 @@ TBD
   * git checkout -- <file>
 
 -->
+
+### Exercise: Restoring a File ### {#ex-checkout}
+
+<div class="notes">
+
+Goal: Practice using `git checkout` to restore a file from the last
+commit.
+
+</div>
+
+(Instructions forthcoming.)
+
+
+### Restoring a File from Any Existing Commit ###
+
+TBD
+
+<!--
+
+git show/git cat-file
+
+-->
+
+### Exercise: Restoring a File ### {#ex-any-commit}
+
+<div class="notes">
+
+Goal: Practice using `git log` and `git checkout` to restore a file
+from any previous version.
+
+</div>
+
+(Instructions forthcoming.)

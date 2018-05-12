@@ -37,7 +37,14 @@ merge conflict arises which you must manually resolve.
 
   #. Finish the merge by using `git commit`
 
-### Exercise: Merging with Conflicts ###
+### Exercise: Merging with Conflicts ### {#ex-merge}
+
+<div class="notes">
+
+Goal: Practice resolving conflicts when merging one branch into
+another.
+
+</div>
 
   #. Change to the following directory:
 
