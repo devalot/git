@@ -93,17 +93,9 @@ Improving Your Daily Workflow
 Remote Repositories
 ===================
 
-  * Listing remotes
-
-  * Adding remotes
-
-  * Fetching from remotes
-
-  * Creating tracking branches
-
-  * Pushing to remotes
-
-  * Pushing tags
+  <<(../content/external/remotes.md)
+  <<(../content/external/sync.md)
+  <<(../content/external/tracking.md)
 
 Including External Repositories
 ===============================
