@@ -81,8 +81,8 @@ pkgs.stdenv.mkDerivation rec {
       mv $file $(echo $file | sed -E 's/[.](handout|slides)[.]pdf/.pdf/')
     done
 
-    # Copy the repositories:
-    cp -rp repos $out
+    # Copy assets needed by the students:
+    cp -rp examples repos $dest
 
     # Build archives:
     ( cd $out && zip -9 -y -r -q ${name}.zip ${name} )
