@@ -3,30 +3,39 @@ Simplifying Common Commands with Aliases
 
 ### What are Aliases ###
 
-TBD
+  * Just like with your favorite shell, Git supports aliases.
 
-<!--
+  * When you run a Git command, it will first be looked up as an alias
 
-  * Don't you wish git supported an unstage command?
+  * For example:
 
--->
+        $ git unstage main.c
 
+    Could be an alias for:
+
+        $ git reset HEAD -- main.c
 
 ### Creating New Aliases ###
 
-TBD
+The easiest way to create an alias is with the `git config` command:
 
-<!--
+    $ git config --global alias.unstage "reset HEAD --"
 
-  Pg. 62
+The `git config --global` command simply edits `~/.gitconfig`:
 
--->
+~~~ {.ini}
+[alias]
+unstage = reset head --
+~~~
 
 ### Some Useful Aliases ###
 
-TBD
+~~~ {.ini insert="../../examples/aliases.ini"}
+~~~
 
-### Exercise: Create an Alias ### {#ex-alias}
+(Taken from the `examples/aliases.ini` file.)
+
+### Exercise: Create Some Aliases ### {#ex-alias}
 
 <div class="notes">
 
@@ -35,4 +44,6 @@ commonly used commands.
 
 </div>
 
-(Instructions forthcoming.)
+  #. Take a moment and create some helpful aliases
+
+  #. Pick a repository and test your new aliases

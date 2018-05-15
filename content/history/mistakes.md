@@ -1,33 +1,33 @@
 Fixing Mistakes
 ---------------
 
-### A Word of Caution ###
-
-TBD
-
-<!--
-
-  * Be careful when altering things
-
-  * When in doubt, stash or commit something first
-
--->
-
 ### Fixing the Last Commit ###
 
-TBD
+You finish creating a commit and then realize:
 
-<!--
+  * Forgot to add a file to the staging area
 
-  * Add more files to the last commit
+  * You have typos in your commit message
 
-  * Change the commit message
+  * etc.
 
-  * Etc.
+Before pushing the commit you can edit it:
 
-  * Pg. 49
+    $ git commit --amend
 
--->
+
+### The Process of Amending a Commit ###
+
+  #. Add any missing files to the staging area
+
+  #. Run `git commit --amend`
+
+  #. Edit the commit message if necessary
+
+  #. Exit your text editor
+
+(Note: If you want to remove a file from a commit you will need to
+perform a soft reset and create a new commit.)
 
 ### Exercise: Amending the Last Commit ### {#ex-amend}
 
@@ -38,21 +38,32 @@ commit message.
 
 </div>
 
-(Instructions forthcoming.)
+  #. Change to the following directory:
+
+        repos/basic
+
+  #. Create a branch that starts at the commit named `merge-start`
+
+        $ git checkout -b NAME merge-start
+
+  #. Take note of the last commit hash
+
+  #. Amend the last commit, changing the commit message
+
+  #. Notice that the most recent commit was rewritten
 
 ### Unstaging a Modification or File ###
 
-TBD
+Have you ever staged a file by accident and then wanted to *unstage* it?
 
-<!--
+    $ git reset HEAD <file>
 
-  * Repeating the section from resetting, but that's okay
+Or:
 
-  * Use git reset HEAD <file>
+    $ git reset -- <file>
 
-  * Or: git reset -- <file>
 
--->
+(Or, create an *unstage* alias.  We'll do this later.)
 
 ### Exercise: Unstaging a File ### {#ex-unstage}
 
@@ -64,17 +75,30 @@ alias to act as a shortcut for this common task.
 
 </div>
 
-(Instructions forthcoming.)
+  #. Change to the following directory:
+
+        repos/basic
+
+  #. Create a branch that starts at the commit named `merge-start`
+
+        $ git checkout -b NAME merge-start
+
+  #. Edit the `main.c` file, making a simple change to it
+
+  #. Stage (`git add`) and unstage (`git reset`) the file
 
 ### Restoring a Modified File ###
 
-TBD
+Have you ever changed a file and wanted to restore a it back to how it
+was in the last commit?
 
-<!--
 
-  * git checkout -- <file>
+    $ git checkout -- <file>
 
--->
+What about its state two commits ago?
+
+
+    $ git checkout HEAD~2 <file>
 
 ### Exercise: Restoring a File ### {#ex-checkout}
 
@@ -85,18 +109,12 @@ commit.
 
 </div>
 
-(Instructions forthcoming.)
+  #. Change to the following directory:
 
+        repos/basic
 
-### Restoring a File from Any Existing Commit ###
-
-TBD
-
-<!--
-
-git show/git cat-file
-
--->
+  #. In the last exercise we changed the `main.c` file, restore it
+     back to its previous state
 
 ### Exercise: Restoring a File ### {#ex-any-commit}
 
@@ -107,4 +125,11 @@ from any previous version.
 
 </div>
 
-(Instructions forthcoming.)
+  #. Change to the following directory:
+
+        repos/basic
+
+  #. Look through the commit history and find the commit that added a
+     version number to `main.c`
+
+  #. Restore `main.c` to its content before the version number was added

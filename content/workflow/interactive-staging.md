@@ -1,41 +1,57 @@
 Interactively Staging Changes
 -----------------------------
 
-### What is Interactive Staging ###
+### What is Interactive Staging? ###
 
-TBD
+When you give the `--interactive` option to the `git add` command you
+enter an interactive shell where you can:
 
-<!-- Pg. 227 -->
+  * See the differences between the staging area and the working
+    directory
 
+  * Select files to unstage
+
+  * Stage individual patch hunks
 
 ### Starting an Interactive Staging Session ###
 
-TBD
+Anytime you would normally use `git add` or `git rm` to update the
+staging area you can use:
+
+    $ git add --interactive
+
+or:
+
+    $ git add -i
+
+instead.
 
 ### Staging Individual Patch Hunks ###
 
-TBD
+There are two ways to stage individual patch hunks:
 
-<!--
+  #. Enter the interactive staging tool:
 
-  in `git add -i`: p for patch
+        $ git add -i
 
-  or use: `git add -p` or --patch
+  #. Select the `patch` tool:
 
--->
+        What now> patch
+
+Alternatively, you can jump right into the patch tool with:
+
+    $ git add --patch main.c
 
 ### Unstaging Individual Patch Hunks ###
 
-TBD
+If you have staged more changes than you want to commit you can
+unstage individual patch hunks:
 
-<!--
+    $ git reset --patch main.c
 
-  * `git reset --patch`
-
--->
+This will drop you into the interactive patch tool for unstaging.
 
 ### Exercise: Staging Patch Hunks ### {#ex-patch}
-
 
 <div class="notes">
 
@@ -44,4 +60,26 @@ rest of the file unstaged.
 
 </div>
 
-(Instructions forthcoming.)
+  #. Change to the following directory:
+
+        repos/conflicts
+
+  #. Create a branch that starts off the `feature` branch
+
+  #. Reset the index and working directory to `HEAD^`
+
+  #. Review the difference between the working directory and the index:
+
+        $ git diff
+
+  #. Interactively stage one of the patch hunks by splitting the first
+     hunk:
+
+        $ git add -p main.c
+        ...
+        Stage this hunk [y,n,q,a,d,/,j,J,g,e,?]? s
+
+  #. Review the updated index:
+
+        $ git status
+        $ git diff --cached

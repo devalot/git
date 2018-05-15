@@ -3,32 +3,32 @@
 ################################################################################
 set -e
 set -u
+set -x
 
 ################################################################################
 top=$(realpath "$(dirname "$0")/..")
+repo="$top/repos/submodules"
 . "$top/lib/git.sh"
 
 ################################################################################
-repo="$top/repos/conflicts"
+# Create the repo:
+git_init "$repo"
+git_set_author jdoe
 
 ################################################################################
-# Bootstrap the repo:
-. "$top"/scripts/repo-basic.sh
+# Add a submodule:
+git submodule add ../basic.git other
 
 ################################################################################
-# Add a conflicting change:
-git checkout feature
-git_set_author sbee
-
-sed -i -f "$top/scripts/hello-print-version.sed" main.c
-sed -i -e 's/hello/Hello World!/' -e 's/1\.0/1.1/' main.c
-git add main.c
-git commit -m "Print the version number, fix greeting"
+# Lock to the previous commit:
+(cd other && git reset --hard HEAD^)
 
 ################################################################################
-# Add a tag to get back to this point.
-git tag conflict-start
+# Commit our change:
+git add other
+git commit -m "Add submodule"
 
 ################################################################################
-# Go back to master.
-git checkout master
+# Make the submodule look freshly cloned:
+git submodule deinit --all
+git submodule update --init

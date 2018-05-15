@@ -9,11 +9,7 @@ top=$(realpath "$(dirname "$0")/..")
 . "$top/lib/git.sh"
 
 ################################################################################
-repo="$top/repos/basic"
-
-if [ "$#" -gt 0 ]; then
-  repo=$1; shift
-fi
+repo=${repo:-"$top/repos/basic"}
 
 ################################################################################
 # Create the repository:

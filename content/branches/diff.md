@@ -27,7 +27,7 @@ $ git diff master..feature
 
 <div class="notes">
 
-~~~ {.diff exec="cd ../../repos/basic && git diff master..feature"}
+~~~ {.diff exec="cd ../../repos/basic && git diff origin/master..origin/feature"}
 ~~~
 
 ----
@@ -54,7 +54,7 @@ $ git diff f259764..feature
 
 <div class="notes">
 
-~~~ {.diff exec="cd ../../repos/basic && git diff master...feature"}
+~~~ {.diff exec="cd ../../repos/basic && git diff origin/master...origin/feature"}
 ~~~
 
 ----

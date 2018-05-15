@@ -90,6 +90,21 @@ Improving Your Daily Workflow
   <<(../content/workflow/ignoring.md)
   <<(../content/workflow/aliases.md)
 
+Remote Repositories
+===================
+
+  * Listing remotes
+
+  * Adding remotes
+
+  * Fetching from remotes
+
+  * Creating tracking branches
+
+  * Pushing to remotes
+
+  * Pushing tags
+
 Including External Repositories
 ===============================
 
@@ -116,18 +131,6 @@ Workflow Management
     - https://github.com/nvie/gitflow
 
   * Tagging
-
-Remote Repositories
-===================
-
-  * Listing remotes
-
-  * Adding remotes
-
-  * Fetching from remotes
-
-  * Creating tracking branches
-
 
 Advanced Concepts
 =================
