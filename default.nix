@@ -54,11 +54,15 @@ pkgs.stdenv.mkDerivation rec {
         xcolor-solarized pgf standalone;
     })
 
+    # For running git commands during the build
+    gitMinimal
+
     # For packaging:
     zip
   ];
 
   buildPhase = ''
+    "$SHELL" scripts/repo-all.sh
     edify build --top "$(pwd)" courses/*.md
   '';
 
@@ -76,6 +80,9 @@ pkgs.stdenv.mkDerivation rec {
     for file in $dest/{handouts,slides}/*.pdf; do
       mv $file $(echo $file | sed -E 's/[.](handout|slides)[.]pdf/.pdf/')
     done
+
+    # Copy the repositories:
+    cp -rp repos $out
 
     # Build archives:
     ( cd $out && zip -9 -y -r -q ${name}.zip ${name} )

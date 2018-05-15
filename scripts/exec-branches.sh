@@ -13,6 +13,14 @@ top=$(realpath "$(dirname "$0")/..")
 tmp_clone "basic.git"
 
 case "${1:-checkout}" in
+  diff)
+    git diff origin/master..origin/feature
+    ;;
+
+  diff-from-base)
+    git diff origin/master...origin/feature
+    ;;
+
   checkout)
     dollar git branch --all
     dollar git checkout feature

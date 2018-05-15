@@ -27,7 +27,7 @@ $ git diff master..feature
 
 <div class="notes">
 
-~~~ {.diff exec="cd ../../repos/basic && git diff origin/master..origin/feature"}
+~~~ {exec="../../scripts/exec-branches.sh diff"}
 ~~~
 
 ----
@@ -51,15 +51,6 @@ $ git merge-base feature master
 f259764e2f5a16eae7b33a96a8fb5105df99cbfb
 $ git diff f259764..feature
 ~~~
-
-<div class="notes">
-
-~~~ {.diff exec="cd ../../repos/basic && git diff origin/master...origin/feature"}
-~~~
-
-----
-
-</div>
 
   * Used when the base branch has diverged
 
