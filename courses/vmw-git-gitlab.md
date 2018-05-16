@@ -1,5 +1,5 @@
 ---
-title: "Intermediate Git"
+title: "Git and GitLab"
 
 author:
   - name: "Peter J. Jones"
@@ -41,6 +41,7 @@ Git Review
   <<(../content/core/basics.md)
   <<(../content/core/config.md)
   <<(../content/core/files.md)
+
 Branching
 =========
 
@@ -101,8 +102,11 @@ Including External Repositories
 ===============================
 
   <<(../content/external/submodules.md)
+
+<!--
   <<(../content/external/subtrees.md)
   <<(../content/external/comparing.md)
+-->
 
 Git as a Debugging Tool
 =======================
@@ -124,6 +128,8 @@ Workflow Management
 
   * Tagging
 
+<!--
+
 Advanced Concepts
 =================
 
@@ -134,3 +140,10 @@ Advanced Concepts
   * Pack Files
 
   * Bundles
+
+-->
+
+GitLab
+======
+
+  <<(../content/frontends/gitlab.md)
