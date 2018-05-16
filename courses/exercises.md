@@ -14,6 +14,25 @@ copyright: >
   To license this work for use in a commercial setting contact Peter J. Jones.
 ---
 
+Git Review
+==========
+
+  <<(../content/core/basics.md#ex-clone)
+  <<(../content/core/basics.md#ex-log)
+  <<(../content/core/basics.md#ex-revparse)
+  <<(../content/core/config.md#ex-user)
+  <<(../content/core/config.md#ex-editor)
+  <<(../content/core/files.md#ex-add)
+  <<(../content/core/files.md#ex-mv)
+  <<(../content/core/files.md#ex-rm)
+
+Branching
+=========
+
+  <<(../content/branches/basics.md#ex-head)
+  <<(../content/branches/basics.md#ex-create)
+
+
 Merging
 =======
 

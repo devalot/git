@@ -48,6 +48,8 @@ $ git branch feature a18ef32
 
 </div>
 
+<!-- FIXME: Add an exercise here -->
+
 ### Deleting Remote Branches ###
 
 When you are completely done with a branch you may want to delete your

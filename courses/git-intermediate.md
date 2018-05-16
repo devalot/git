@@ -37,9 +37,10 @@ The source code for this course can be found at the following URL:
 Git Review
 ==========
 
-  * FIXME: Centralized vs. Distributed Repositories
-
+  <<(../content/core/intro.md)
   <<(../content/core/basics.md)
+  <<(../content/core/config.md)
+  <<(../content/core/files.md)
 
 Branching
 =========

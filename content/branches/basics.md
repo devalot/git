@@ -53,7 +53,13 @@ $ git checkout feature
 
   * (`HEAD` now points to the `feature` branch)
 
-### Exercise: Moving `HEAD` Around ### {#exercise-head}
+### Exercise: Moving `HEAD` Around ### {#ex-head}
+
+<div class="notes">
+
+Goal: Practice using `git checkout` to move the `HEAD` pointer.
+
+</div>
 
   #. Change to the following directory:
 
@@ -80,7 +86,13 @@ $ git checkout -b feature
 
   * And point `HEAD` at `feature`
 
-### Exercise: Creating Branches ### {#exercise-create}
+### Exercise: Creating Branches ### {#ex-create}
+
+<div class="notes">
+
+Goal: Practice creating and switching branches.
+
+</div>
 
   #. Change to the following directory:
 

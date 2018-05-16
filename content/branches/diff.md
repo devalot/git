@@ -57,3 +57,5 @@ $ git diff f259764..feature
   * The `merge-base` subcommand locates the common ancestor
 
   * Shortcut: `git diff master...feature` (Note: three dots)
+
+<!-- FIXME: Add an exercise or two -->

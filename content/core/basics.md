@@ -1,18 +1,18 @@
 Git Basics
 ==========
 
-<!-- * Absolute vs. Relative Revisions -->
+### Working Directory, Index, and Repository ### {#trees}
 
-### Working, Staging, and Repository ### {#trees}
+Working Directory
+  : The project's files as you and your tools see them.
 
-Working Directory:
-  ~ The project file as you and your tools see them.
+The Index
+  : Changes that will be included in the next commit.
 
-The Staging Area:
-  ~ Changes that will be included in the next commit.
+The Repository
+  : All commits, files, and history information.
 
-The Repository:
-  ~ All commits, files, and history information.
+(Note: The index is sometimes referred to as the *staging area*.)
 
 ### Basic Git Workflow ### {#workflow}
 
@@ -24,11 +24,30 @@ The Repository:
 ![](../../diagrams/core/commit.dot)\
 <!-- Placeholder -->
 
-### Exercise: Viewing the History Log ### {#exercise-log}
+### Starting Out: Cloning a Repository ###
+
+To get a copy of an existing repository you *clone* it:
+
+    $ git clone <url>
+
+### Exercise: Cloning a Repository ### {#ex-clone}
 
   #. Change to the following directory:
 
-        repos/basic
+        repos
+
+  #. Clone the `basic.git` repository:
+
+        $ git clone basic.git
+
+  #. This should have created a `basic` directory
+
+### Exercise: Viewing the History Log ### {#ex-log}
+
+  #. Change to the directory holding a clone of the following
+     repository:
+
+        repos/basic.git
 
   #. Use the following command to see the commit history:
 
@@ -42,29 +61,27 @@ The Repository:
 
 ### Specifying Revisions ### {#revs}
 
-Examples of absolute revisions:
-  ~ `f259764`, `feature`, `HEAD`, `@`
+Examples of absolute revisions
+  : `f259764`, `feature`, `HEAD`, `@`
 
-First parent of a commit:
-  ~ `f259764^` *or* `f259764~1`
+First parent of a commit
+  : `f259764^` *or* `f259764~1`
 
-Grandparent of a commit:
-  ~ `f259764~2`
+Grandparent of a commit
+  : `f259764~2`
 
-Using a regular expression against the commit message:
-  ~ `:/success`
+Entries from the reflog
+  : `master@{yesterday}`, `HEAD@{5}`
 
-Entries from the RefLog:
-  ~ `master@{yesterday}`, `HEAD@{5}`
+Ranges (useful for generating diffs)
+  : `1cfd75c..0ee2723`
 
-Ranges (useful for generating `diff`s):
-  ~ `1cfd75c..0ee2723`
+### Exercise: Using `git rev-parse` ### {#ex-revparse}
 
-### Exercise: Using `git rev-parse` ### {#exercise-revparse}
+  #. Change to the directory holding a clone of the following
+     repository:
 
-  #. Change to the following directory:
-
-        repos/basic
+        repos/basic.git
 
   #. Use the following command to see the commit history:
 
