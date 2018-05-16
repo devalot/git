@@ -33,7 +33,7 @@ merge conflict arises which you must manually resolve.
 
   #. Edit all files that are *unmerged*
 
-  #. Use `git add` to add them to the staging area
+  #. Use `git add` to add them to the index
 
   #. Finish the merge by using `git commit`
 
@@ -46,9 +46,10 @@ another.
 
 </div>
 
-  #. Change to the following directory:
+  #. Change to the directory holding a clone of the following
+     repository:
 
-        repos/conflicts
+        repos/conflicts.git
 
   #. Merge the `feature` branch into the `master` branch
 

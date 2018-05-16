@@ -7,7 +7,7 @@ A *hard* reset will:
 
   * Move `HEAD` back to the specified commit
 
-  * Move the staging area back to the specified commit
+  * Move the index back to the specified commit
 
   * Update the working directory to the specified commit
 
@@ -25,9 +25,10 @@ to the working directory are **lost** during a hard reset.
 
 </div>
 
-  #. Change to the following directory:
+  #. Change to the directory holding a clone of the following
+     repository:
 
-        repos/basic
+        repos/basic.git
 
   #. Create a branch that starts at the commit named `merge-start`
 
@@ -41,6 +42,6 @@ to the working directory are **lost** during a hard reset.
 
   #. Use `git log --oneline` to see how the history changed
 
-  #. Use `git status` to review the staging area and working directory
+  #. Use `git status` to review the index and working directory
 
   #. Notice that the working directory was also changed

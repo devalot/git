@@ -6,8 +6,8 @@ Rebasing with Local Branches
   #. Use `git checkout` to move `HEAD` to the branch you want to
      rebase.  Typically this will be a topic branch.
 
-  #. The staging area and working directory should be clean.  Commit
-     or stash changes as necessary.
+  #. The index and working directory should be clean.  Commit or stash
+     changes as necessary.
 
   #. Run `git rebase` listing the ancestor branch you want to rebase
      onto.
@@ -38,9 +38,10 @@ We'll also review the new commits that Git created.
 
 </div>
 
-  #. Change to the following directory:
+  #. Change to the directory holding a clone of the following
+     repository:
 
-        repos/basic
+        repos/basic.git
 
   #. Create a branch that starts at the commit named `merge-start`
 
@@ -62,9 +63,10 @@ like before, but this time in the presence of merge conflicts.
 
 </div>
 
-  #. Change to the following directory:
+  #. Change to the directory holding a clone of the following
+     repository:
 
-        repos/conflicts
+        repos/conflicts.git
 
   #. Create a branch that starts at the commit named `merge-start`
 

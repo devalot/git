@@ -7,8 +7,7 @@ Reminder, there are three *trees* in Git:
 
   * `HEAD`: the tip of the current branch
 
-  * The staging area (A.K.A. the index): what changes will be in your
-    next commit
+  * The index: what changes will be in your next commit
 
   * The working directory: the project's files
 
@@ -21,7 +20,7 @@ There are three types of a reset:
 
   * Soft (only change `HEAD`)
 
-  * Mixed (soft + change the staging area)
+  * Mixed (soft + change the index)
 
   * Hard (mixed + update the working directory)
 

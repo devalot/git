@@ -32,7 +32,6 @@ Branching
   <<(../content/branches/basics.md#ex-head)
   <<(../content/branches/basics.md#ex-create)
 
-
 Merging
 =======
 
@@ -69,6 +68,7 @@ Improving Your Daily Workflow
   <<(../content/workflow/interactive-staging.md#ex-patch)
   <<(../content/workflow/stashing.md#ex-stash)
   <<(../content/workflow/aliases.md#ex-alias)
+  <<(../content/workflow/tagging.md#ex-tag)
 
 Including External Repositories
 ===============================

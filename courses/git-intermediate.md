@@ -113,16 +113,8 @@ Git as a Debugging Tool
 Workflow Management
 ===================
 
-  * Introduction to workflow management
-
-  * Topic branches and release branches
-
-  * Vincent's branching model and gitflow
-    - http://nvie.com/posts/a-successful-git-branching-model/
-    - https://jeffkreeftmeijer.com/git-flow/
-    - https://github.com/nvie/gitflow
-
-  * Tagging
+  <<(../content/workflow/branches.md)
+  <<(../content/workflow/tagging.md)
 
 Advanced Concepts
 =================

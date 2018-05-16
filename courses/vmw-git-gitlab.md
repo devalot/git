@@ -28,11 +28,11 @@ The source code for this course can be found at the following URL:
 
   Day 1                   Day 2
   --------------          --------------
-  Git Basics Review       Workflow Management
-                          Rest and Checkout
-  Branching and Merging   History and Rewriting
-  Rebasing                Bisecting
-  Cherry Picking          Remotes
+  Git Basics Review       Workflow
+  Branching and Merging   Remotes
+  Rebasing                Submodules
+  Resetting               Debugging
+  Commit History          GitLab
 
 Git Review
 ==========
@@ -104,44 +104,18 @@ Including External Repositories
   <<(../content/external/submodules.md)
 
 <!--
-  <<(../content/external/subtrees.md)
-  <<(../content/external/comparing.md)
--->
-
 Git as a Debugging Tool
 =======================
 
   <<(../content/debugging/blame.md)
   <<(../content/debugging/bisecting.md)
+-->
 
 Workflow Management
 ===================
 
-  * Introduction to workflow management
-
-  * Topic branches and release branches
-
-  * Vincent's branching model and gitflow
-    - http://nvie.com/posts/a-successful-git-branching-model/
-    - https://jeffkreeftmeijer.com/git-flow/
-    - https://github.com/nvie/gitflow
-
-  * Tagging
-
-<!--
-
-Advanced Concepts
-=================
-
-  * Git Object Types
-
-  * Content-Addressable Names
-
-  * Pack Files
-
-  * Bundles
-
--->
+  <<(../content/workflow/branches.md)
+  <<(../content/workflow/tagging.md)
 
 GitLab
 ======

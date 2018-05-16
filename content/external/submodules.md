@@ -175,9 +175,10 @@ features:
 For each of the following steps you should create a unique branch off
 of `master` so you can easily jump back to the previous state.
 
-  #. Use the following repository:
+  #. Change to the directory holding a clone of the following
+     repository:
 
-        repos/submodules
+        repos/submodules.git
 
   #. Go into the `other` submodule and see what branch it is on
 

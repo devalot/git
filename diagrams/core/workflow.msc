@@ -11,7 +11,7 @@ msc {
 
   # Labels:
   w box w [label="Working Directory", textcolour="#002b36", textbgcolour="#fdf6e3"],
-  s box s [label="Staging Area", textcolour="#002b36", textbgcolour="#fdf6e3"],
+  s box s [label="Index", textcolour="#002b36", textbgcolour="#fdf6e3"],
   r box r [label="Repository", textcolour="#002b36", textbgcolour="#fdf6e3"];
 
   # Connections:

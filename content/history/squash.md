@@ -43,9 +43,10 @@ single commit.
 
 </div>
 
-  #. Change to the following directory:
+  #. Change to the directory holding a clone of the following
+     repository:
 
-        repos/basic
+        repos/basic.git
 
   #. Create a branch that starts at the commit named `merge-start`
 

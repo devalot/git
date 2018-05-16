@@ -62,9 +62,10 @@ Goal: Practice editing commits by performing an interactive rebase.
 
 </div>
 
-  #. Change to the following directory:
+  #. Change to the directory holding a clone of the following
+     repository:
 
-        repos/basic
+        repos/basic.git
 
   #. Create a branch that starts at the commit named `merge-start`
 

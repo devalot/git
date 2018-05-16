@@ -6,8 +6,7 @@ Interactively Staging Changes
 When you give the `--interactive` option to the `git add` command you
 enter an interactive shell where you can:
 
-  * See the differences between the staging area and the working
-    directory
+  * See the differences between the index and the working directory
 
   * Select files to unstage
 
@@ -16,7 +15,7 @@ enter an interactive shell where you can:
 ### Starting an Interactive Staging Session ###
 
 Anytime you would normally use `git add` or `git rm` to update the
-staging area you can use:
+index you can use:
 
     $ git add --interactive
 
@@ -60,9 +59,10 @@ rest of the file unstaged.
 
 </div>
 
-  #. Change to the following directory:
+  #. Change to the directory holding a clone of the following
+     repository:
 
-        repos/conflicts
+        repos/conflicts.git
 
   #. Create a branch that starts off the `feature` branch
 

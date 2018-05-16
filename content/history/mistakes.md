@@ -5,7 +5,7 @@ Fixing Mistakes
 
 You finish creating a commit and then realize:
 
-  * Forgot to add a file to the staging area
+  * Forgot to add a file to the index
 
   * You have typos in your commit message
 
@@ -18,7 +18,7 @@ Before pushing the commit you can edit it:
 
 ### The Process of Amending a Commit ###
 
-  #. Add any missing files to the staging area
+  #. Add any missing files to the index
 
   #. Run `git commit --amend`
 
@@ -38,9 +38,10 @@ commit message.
 
 </div>
 
-  #. Change to the following directory:
+  #. Change to the directory holding a clone of the following
+     repository:
 
-        repos/basic
+        repos/basic.git
 
   #. Create a branch that starts at the commit named `merge-start`
 
@@ -75,9 +76,10 @@ alias to act as a shortcut for this common task.
 
 </div>
 
-  #. Change to the following directory:
+  #. Change to the directory holding a clone of the following
+     repository:
 
-        repos/basic
+        repos/basic.git
 
   #. Create a branch that starts at the commit named `merge-start`
 
@@ -109,9 +111,10 @@ commit.
 
 </div>
 
-  #. Change to the following directory:
+  #. Change to the directory holding a clone of the following
+     repository:
 
-        repos/basic
+        repos/basic.git
 
   #. In the last exercise we changed the `main.c` file, restore it
      back to its previous state
@@ -125,9 +128,10 @@ from any previous version.
 
 </div>
 
-  #. Change to the following directory:
+  #. Change to the directory holding a clone of the following
+     repository:
 
-        repos/basic
+        repos/basic.git
 
   #. Look through the commit history and find the commit that added a
      version number to `main.c`

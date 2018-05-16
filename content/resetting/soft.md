@@ -7,7 +7,7 @@ A *soft* reset will:
 
   * Move `HEAD` back to the specified commit
 
-  * Keep the staging area at the current commit
+  * Keep the index at the current commit
 
   * Leave the working directory alone
 
@@ -18,13 +18,14 @@ A *soft* reset will:
 <div class="notes">
 
 Goal: Practice resetting `HEAD` so that we back out a commit but leave
-the staging area and working directory intact.
+the index and working directory intact.
 
 </div>
 
-  #. Change to the following directory:
+  #. Change to the directory holding a clone of the following
+     repository:
 
-        repos/basic
+        repos/basic.git
 
   #. Create a branch that starts at the commit named `merge-start`
 
@@ -38,6 +39,6 @@ the staging area and working directory intact.
 
   #. Use `git log --oneline` to see how the history changed
 
-  #. Use `git status` to review the staging area and working directory
+  #. Use `git status` to review the index and working directory
 
   #. Use `git commit` to create a new commit

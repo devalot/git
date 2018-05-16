@@ -46,13 +46,14 @@ index.  For some reason this isn't the default.)
 <div class="notes">
 
 Goal: Practice using `git stash` to save and restore changes to the
-staging area and working directory.
+index and working directory.
 
 </div>
 
-  #. Change to the following directory:
+  #. Change to the directory holding a clone of the following
+     repository:
 
-        repos/conflicts
+        repos/conflicts.git
 
   #. Create a branch that starts off the `feature` branch
 

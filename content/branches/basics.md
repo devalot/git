@@ -61,9 +61,10 @@ Goal: Practice using `git checkout` to move the `HEAD` pointer.
 
 </div>
 
-  #. Change to the following directory:
+  #. Change to the directory holding a clone of the following
+     repository:
 
-        repos/basic
+        repos/basic.git
 
   #. List the names of all branches
 
@@ -94,9 +95,10 @@ Goal: Practice creating and switching branches.
 
 </div>
 
-  #. Change to the following directory:
+  #. Change to the directory holding a clone of the following
+     repository:
 
-        repos/basic
+        repos/basic.git
 
   #. Switch to the `master` branch
 
