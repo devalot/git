@@ -26,7 +26,7 @@ in
 }:
 
 pkgs.stdenv.mkDerivation rec {
-  name = "git-${version}";
+  name = "gitclass-${version}";
   version = "1.0";
   src = builtins.fetchGit ./.;
 

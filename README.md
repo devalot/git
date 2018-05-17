@@ -5,7 +5,7 @@ This is the source code and training content for the Git course taught
 by [Peter J. Jones][pjones].
 
 The official site for this course is
-<https://github.com/devalot/git>
+<https://github.com/devalot/gitclass>
 
 Building the Course Content (PDF Files)
 ---------------------------------------

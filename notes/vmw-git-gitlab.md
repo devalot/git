@@ -7,7 +7,7 @@ Welcome to Git and GitLab
 
   2. Download the course ZIP file:
 
-     https://www.devalot.com/r/git.zip
+     https://www.devalot.com/r/gitclass.zip
 
   3. **Extract** the ZIP file
 
