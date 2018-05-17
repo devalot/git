@@ -26,8 +26,8 @@ in
 }:
 
 pkgs.stdenv.mkDerivation rec {
-  name = "git-training-${version}";
-  version = "0.0.1";
+  name = "git-${version}";
+  version = "1.0";
   src = builtins.fetchGit ./.;
 
   # Specifically don't want fixups for this package:
