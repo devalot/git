@@ -1,0 +1,60 @@
+digraph decentralized {
+  // Defaults:
+  graph [ layout=circo ];
+  node  [ shape=circle
+        , style=filled
+        , fontcolor="#fdf6e3"
+        , fillcolor="#859900"
+        ];
+
+  // Nodes:
+  repo    [label="Blessed\nRepository", fillcolor="#268bd2"];
+  alice   [label="Alice"];
+  bob     [label="Bob"];
+  charley [label="Charley"];
+  dawn    [label="Dawn"];
+  elaine  [label="Elaine"];
+  franco  [label="Franco"];
+
+  // Connections:
+  alice   -> repo;
+  bob     -> repo;
+  charley -> repo;
+  dawn    -> repo;
+  elaine  -> repo;
+  franco  -> repo;
+
+  alice -> bob;
+  alice -> charley;
+  alice -> dawn;
+  alice -> elaine;
+  alice -> franco;
+
+  bob -> alice;
+  bob -> charley;
+  bob -> dawn;
+  bob -> elaine;
+  bob -> franco;
+
+  charley -> alice;
+  charley -> bob;
+  charley -> dawn;
+  charley -> elaine;
+  charley -> franco;
+
+  dawn -> alice;
+  dawn -> bob;
+  dawn -> charley;
+  dawn -> elaine;
+  dawn -> franco;
+
+  elaine -> alice;
+  elaine -> bob;
+  elaine -> charley;
+  elaine -> franco;
+
+  franco -> alice;
+  franco -> bob;
+  franco -> charley;
+  franco -> elaine;
+}

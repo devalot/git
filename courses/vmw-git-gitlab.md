@@ -30,8 +30,8 @@ The source code for this course can be found at the following URL:
   --------------          --------------
   Git Basics Review       Workflow
   Branching and Merging   Remotes
-  Rebasing                Submodules
-  Resetting               Debugging
+  Rebasing                Stashes
+  Resetting               Submodules
   Commit History          GitLab
 
 Git Review
@@ -45,7 +45,7 @@ Git Review
 Branching
 =========
 
-  <<(../content/branches/review.md)
+  <<(../content/branches/basics.md)
   <<(../content/branches/diff.md)
   <<(../content/branches/visualizing.md)
   <<(../content/branches/deleting.md)
@@ -102,14 +102,6 @@ Including External Repositories
 ===============================
 
   <<(../content/external/submodules.md)
-
-<!--
-Git as a Debugging Tool
-=======================
-
-  <<(../content/debugging/blame.md)
-  <<(../content/debugging/bisecting.md)
--->
 
 Workflow Management
 ===================

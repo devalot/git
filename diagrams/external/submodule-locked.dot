@@ -1,0 +1,15 @@
+digraph submodule {
+  // Defaults:
+  graph [ layout=dot, rankdir=LR ];
+  node  [ shape=record
+        , style=filled
+        , fontcolor="#002b36"
+        , fillcolor="#fdf6e3"
+        ];
+
+  // Nodes:
+  p [label="Project"];
+  s [label="{Submodule|g325a910}"];
+
+  p -> s;
+}

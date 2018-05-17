@@ -1,0 +1,20 @@
+digraph tracking {
+  // Defaults:
+  graph [ layout=dot, rankdir=LR ];
+  node  [ shape=record
+        , style=filled
+        , fontcolor="#002b36"
+        , fillcolor="#fdf6e3"
+        ];
+
+  // Nodes:
+  b  [label="branches"];
+  m1 [label="master"];
+  m2 [label="[origin/master]"];
+  f1 [label="feature"];
+  f2 [label="[origin/feature]"];
+
+  // Connections:
+  b -> m1 -> m2;
+  b -> f1 -> f2;
+}

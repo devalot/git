@@ -3,7 +3,8 @@ Submodules
 
 ### What are Submodules? ###
 
-<!-- FIXME: Need a diagram here -->
+![](../../diagrams/external/submodule.dot)\
+<!-- Placeholder -->
 
 Submodules allow you to embed one repository into another.
 
@@ -44,7 +45,8 @@ submodules by default.  You have two choices:
 
 ### Understanding Submodules ###
 
-<!-- FIXME: Need a diagram -->
+![](../../diagrams/external/submodule-locked.dot)\
+<!-- Placeholder -->
 
 Project
   : The main repository that is using submodules

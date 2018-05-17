@@ -1,0 +1,40 @@
+digraph submodule {
+  // Defaults:
+  graph [ layout=dot ];
+  node  [ shape=record
+        , style=filled
+        , fontcolor="#002b36"
+        , fillcolor="#fdf6e3"
+        ];
+
+
+  // Nodes:
+  o1 [ label="Repo A"
+     , shape=circle
+     , color="#93a1a1"
+     , fontcolor="#93a1a1"
+     , fillcolor=white
+     ];
+
+  o2 [ label="Repo B"
+     , shape=circle
+     , color="#93a1a1"
+     , fontcolor="#93a1a1"
+     , fillcolor=white
+     ];
+
+
+  f1 [label="src", shape=folder];
+  f2 [label="test", shape=folder];
+  f3 [label="doc", shape=folder];
+  p [label="Project"];
+  s [label="Submodule", shape=folder, fillcolor="#859900", fontcolor="#fdf6e3"];
+
+  // Connections:
+  s -> o2 [label="origin", color="#93a1a1"];
+  p -> o1 [label="origin", color="#93a1a1"];
+  p -> s  [label="g325a910"];
+  p -> f1;
+  p -> f2;
+  p -> f3;
+}

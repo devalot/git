@@ -3,7 +3,8 @@ Tracking Branches
 
 ### What is a Tracking Branch? ###
 
-<!-- FIXME: Need a diagram here -->
+![](../../diagrams/external/tracking.dot)\
+<!-- Placeholder -->
 
 A *tracking branch* is linked to a specific remote repository and
 branch.

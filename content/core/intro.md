@@ -3,15 +3,13 @@ Introduction to Git
 
 ### Centralized Systems: Subversion, Perforce, etc. ###
 
-<!-- FIXME: Need a diagram -->
-
-TBD
+![](../../diagrams/core/centralized.dot)\
+<!-- Placeholder -->
 
 ### Distributed Systems: Git, Mercurial, etc. ###
 
-<!-- FIXME: Need a diagram -->
-
-TBD
+![](../../diagrams/core/decentralized.dot)\
+<!-- Placeholder -->
 
 ### Centralized vs. Distributed ###
 

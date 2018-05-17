@@ -1,0 +1,26 @@
+digraph centralized {
+  // Defaults:
+  graph [ layout=circo ];
+  node  [ shape=folder
+        , style=filled
+        , fontcolor="#fdf6e3"
+        , fillcolor="#cb4b16"
+        ];
+
+  // Nodes:
+  repo    [label="Repository", shape=circle, fillcolor="#859900"];
+  alice   [label="Alice"];
+  bob     [label="Bob"];
+  charley [label="Charley"];
+  dawn    [label="Dawn"];
+  elaine  [label="Elaine"];
+  franco  [label="Franco"];
+
+  // Connections:
+  alice   -> repo;
+  bob     -> repo;
+  charley -> repo;
+  dawn    -> repo;
+  elaine  -> repo;
+  franco  -> repo;
+}
