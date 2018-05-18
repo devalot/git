@@ -56,5 +56,6 @@ git_set_author sbee
 git tag merge-start
 
 ################################################################################
-# Back to master.
+# Back to master and tag it for later.
 git checkout master
+git tag v1.0
