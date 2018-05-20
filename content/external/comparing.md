@@ -1,20 +1,22 @@
 Choosing Between Submodules and Subtrees
 ----------------------------------------
 
-### General Advise for Submodules vs. Subtrees ###
+### Submodules vs. Subtrees ###
 
-TBD
+Submodules:
 
-<!--
+  * Easier to work with
 
-  * Submodules are easier to understand
+  * Pushing/pulling works as expected
 
--->
+  * Need to watch out for a detached `HEAD`
 
-### Submodule Pros and Cons ###
+  * Need to remember to update after a pull
 
-TBD
+Subtrees:
 
-### Subtree Pros and Cons ###
+  * Best when you don't plan on editing files in the subtree
 
-TBD
+  * A push can be rejected for non-obvious reasons
+
+  * Never need to worry about detached `HEAD` or updating

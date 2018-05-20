@@ -28,6 +28,7 @@ shift $((OPTIND-1))
 "$SHELL" "$top/scripts/repo-basic.sh"
 "$SHELL" "$top/scripts/repo-conflicts.sh"
 "$SHELL" "$top/scripts/repo-submodules.sh"
+"$SHELL" "$top/scripts/repo-subtrees.sh"
 
 ################################################################################
 if [ "$option_clone" -eq 1 ]; then
