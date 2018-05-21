@@ -49,6 +49,7 @@ Branching
   <<(../content/branches/basics.md)
   <<(../content/branches/diff.md)
   <<(../content/branches/visualizing.md)
+  <<(../content/branches/rename.md)
   <<(../content/branches/deleting.md)
 
 Remote Repositories
@@ -111,7 +112,7 @@ Including External Repositories
 Integration with Subversion
 ===========================
 
-  * Coming Soon.
+  <<(../content/conduits/subversion.md)
 
 Using BitBucket
 ===============
