@@ -51,6 +51,10 @@ another.
 
         repos/conflicts.git
 
-  #. Merge the `feature` branch into the `master` branch
+  #. Create and switch to a new branch that starts at `master`:
+
+        $ git checkout -b NAME master
+
+  #. Merge the `feature` branch into your new branch
 
   #. Resolve conflicts and finish the merge
