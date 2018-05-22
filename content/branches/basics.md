@@ -87,6 +87,19 @@ $ git checkout -b feature
 
   * And point `HEAD` at `feature`
 
+### Creating a Branch from a Revision ### {#create-from}
+
+![](../../diagrams/branches/switch.tex)\
+<!-- Placeholder -->
+
+~~~ {.shell}
+$ git checkout -b feature master
+~~~
+
+  * Create a `feature` branch which starts at `master`
+
+  * And point `HEAD` at `feature`
+
 ### Exercise: Creating Branches ### {#ex-create}
 
 <div class="notes">
@@ -104,8 +117,10 @@ Goal: Practice creating and switching branches.
 
   #. Create a new branch called `m2`
 
-  #. Switch to the `feature` branch
+  #. Use `git log` to see the latest commit:
 
-  #. Create a branch called `f2`
+        $ git log --oneline -1
+
+  #. Create a branch called `f2` that starts at `merge-start`
 
   #. Compare the latest commits on `m2` and `f2`

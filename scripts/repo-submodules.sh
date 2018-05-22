@@ -3,7 +3,6 @@
 ################################################################################
 set -e
 set -u
-set -x
 
 ################################################################################
 top=$(realpath "$(dirname "$0")/..")
@@ -14,6 +13,23 @@ repo="$top/repos/submodules"
 # Create the repo:
 git_init "$repo"
 git_set_author jdoe
+
+################################################################################
+# Add some notes:
+cat > notes.txt <<EOF
+This project has a Git Submodule in the 'other' folder.
+
+Don't forget to initialize the submodule:
+
+    \$ git submodule update --init
+
+And always work on a branch while in the submodule!
+EOF
+
+################################################################################
+# Commit the notes:
+git add notes.txt
+git commit -m "Add some notes"
 
 ################################################################################
 # Add a submodule:

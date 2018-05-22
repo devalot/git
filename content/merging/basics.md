@@ -63,6 +63,8 @@ resulting merge commit.
 
         repos/basic.git
 
-  #. Merge the `feature` branch into the `master` branch
+  #. Create and switch to a new branch that starts at `master`:
 
-(Hint: make sure you are on the `master` branch first.)
+        $ git checkout -b NAME master
+
+  #. Merge the `feature` branch into your new branch

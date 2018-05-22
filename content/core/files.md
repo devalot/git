@@ -99,22 +99,6 @@ When you no longer need a file you can remove it by:
      The `git rm` command can delete the file and then stage the
      removal in one step.
 
-### Restoring a Removed File ###
-
-You can always restore a file from a previous commit using the `git
-checkout` command:
-
-`git checkout HEAD <file>`
-  : Restore `<file>` from the last commit
-
-`git checkout HEAD^ <file>`
-  : Restore `<file>` from two commits ago
-
-`git checkout 325a910 <file>`
-  : Restore `<file>` from commit `325a910`
-
-After restoring the file you will need to `git add` it.
-
 ### Exercise: Removing a File ### {#ex-rm}
 
 <div class="notes">
@@ -137,3 +121,17 @@ Goal: Practice deleting a file and then restoring it.
   #. Commit your changes
 
   #. Restore the file
+
+### Restoring a Removed File ###
+
+You can always restore a file from a previous commit using the `git
+checkout` command:
+
+`git checkout HEAD <file>`
+  : Restore `<file>` from the last commit
+
+`git checkout HEAD^ <file>`
+  : Restore `<file>` from two commits ago
+
+`git checkout 325a910 <file>`
+  : Restore `<file>` from commit `325a910`
