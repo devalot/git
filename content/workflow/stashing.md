@@ -18,11 +18,13 @@ need to switch tasks.  With stashing you can:
 The fastest way to save your work in progress and restore the three
 trees to `HEAD`:
 
-    $ git stash push --all
+    $ git stash
 
 This will leave you with a clean index and working directory.
 
-(Note: You can use the `--message` option to name the new stash object.)
+(Note: You can use the `--message` option to name the new stash
+object.  You can also use the `--all` option to capture ignored
+files.)
 
 ### Listing and Recovering Stashes ###
 
