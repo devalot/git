@@ -19,6 +19,16 @@ Remote Repositories
 
   #. What does the `-v` flag do?
 
+### Typical Remote Setup ###
+
+![](../../diagrams/external/origin.svg)\
+<!-- Placeholder -->
+
+### Dual Remote Setup (Fork) ###
+
+![](../../diagrams/external/origin-fork.svg)\
+<!-- Placeholder -->
+
 ### Adding Remotes ###
 
 It's common to have more than one remote.  To add another remote you:
