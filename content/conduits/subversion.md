@@ -59,3 +59,29 @@ Subversion:
 Any Git commits that Subversion doesn't know about will be uploaded as
 revisions.  Each Git commit is turned into a single Subversion
 revision.
+
+### Exercise: Cloning and Committing ###
+
+<div class="notes">
+
+Goal: Practice interacting with Subversion through the `git svn` tool.
+
+</div>
+
+  #. In the `examples` directory there is a Subversion repository
+     named `svn.repo`
+
+  #. Clone the repository with `git svn`:
+
+        $ git svn clone file://<path>/trunk
+
+     (Note: replace `<path>` with a path that makes sense on your
+     computer.)
+
+  #. Examine the commit history
+
+  #. Edit a file and then make a commit
+
+  #. Push the commit to Subversion:
+
+        $ git svn dcommit
