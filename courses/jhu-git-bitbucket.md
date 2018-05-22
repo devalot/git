@@ -114,7 +114,7 @@ Integration with Subversion
 
   <<(../content/conduits/subversion.md)
 
-Using BitBucket
+Using Bitbucket
 ===============
 
-  * Coming Soon.
+  <<(../content/frontends/bitbucket.md)
