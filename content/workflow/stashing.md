@@ -34,14 +34,11 @@ List stashes:
 
 Restore the first stash (`stash@{0}`) and then delete it:
 
-    $ git stash pop --index
+    $ git stash pop
 
 Restore the first stash without deleting it:
 
-    $ git stash apply --index
-
-(Note: The `--index` option is necessary to restore the state of the
-index.  For some reason this isn't the default.)
+    $ git stash apply
 
 ### Exercise: Pushing and Popping the Stash ### {#ex-stash}
 
