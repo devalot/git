@@ -1,15 +1,16 @@
 Introduction to Resetting
 -------------------------
 
-### Understanding Git's Three Trees ###
+### What a Reset Can Affect ###
 
-Reminder, there are three *trees* in Git:
+Before figuring out what a `git reset` is, let's first talk about what
+it can change:
 
-  * `HEAD`: the tip of the current branch
+  * The working directory: the project's files
 
   * The index: what changes will be in your next commit
 
-  * The working directory: the project's files
+  * `HEAD`: the tip of the current branch
 
 ### What is a Reset? ###
 
@@ -18,7 +19,7 @@ permanent change unlike `git checkout`.
 
 There are three types of a reset:
 
-  * Soft (only change `HEAD`)
+  * Soft (only change the tip of the current branch)
 
   * Mixed (soft + change the index)
 

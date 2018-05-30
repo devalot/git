@@ -9,7 +9,7 @@ Working Directory
 The Index
   : Changes that will be included in the next commit.
 
-The Repository
+The Git Database (Repository)
   : All commits, files, and history information.
 
 (Note: The index is sometimes referred to as the *staging area*.)
