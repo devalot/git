@@ -48,6 +48,42 @@ responds at each step.
 
   #. Commit the change
 
+### Modifying Existing Files ###
+
+Git knows when you have changed a file that it is tracking:
+
+  * The file will show as *modified* in a `git status`
+
+  * You can use `git diff` to see what has changed
+
+  * Stage the change with `git add`
+
+  * Commit the change with `git commit`
+
+### Exercise: Editing an Existing File ### {#ex-edit}
+
+<div class="notes">
+
+Goal: Practice editing files that are tracked by Git, seeing how Git
+responds, and then staging and committing those changes.
+
+</div>
+
+  #. Change to the directory holding a clone of the following
+     repository:
+
+        repos/basic.git
+
+  #. Edit the `main.c` file
+
+  #. Add some content to the file (any text will do)
+
+  #. Review the output of `git status`
+
+  #. Review the output of `git diff`
+
+  #. Add and commit the change
+
 ### Renaming Files ###
 
 Git allows you to rename files in two different ways:
