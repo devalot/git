@@ -14,8 +14,8 @@ copyright: >
   To license this work for use in a commercial setting contact Peter J. Jones.
 ---
 
-Git Review
-==========
+Git Introduction
+================
 
   <<(../content/core/basics.md#ex-clone)
   <<(../content/core/basics.md#ex-log)
@@ -23,6 +23,7 @@ Git Review
   <<(../content/core/config.md#ex-user)
   <<(../content/core/config.md#ex-editor)
   <<(../content/core/files.md#ex-add)
+  <<(../content/core/files.md#ex-edit)
   <<(../content/core/files.md#ex-mv)
   <<(../content/core/files.md#ex-rm)
 
