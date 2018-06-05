@@ -54,7 +54,7 @@ index and working directory.
 
         repos/conflicts.git
 
-  #. Create a branch that starts off the `feature` branch
+  #. Create a branch that starts off the `origin/feature` branch
 
   #. Reset the index and working directory to `HEAD^`
 

@@ -51,10 +51,10 @@ another.
 
         repos/conflicts.git
 
-  #. Create and switch to a new branch that starts at `master`:
+  #. Create and switch to a new branch that starts at `v1.0`:
 
-        $ git checkout -b NAME master
+        $ git checkout -b NAME v1.0
 
-  #. Merge the `feature` branch into your new branch
+  #. Merge the `origin/feature` branch into your new branch
 
   #. Resolve conflicts and finish the merge
