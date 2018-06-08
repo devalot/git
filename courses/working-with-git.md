@@ -52,14 +52,14 @@ Reviewing and Editing the Commit History
 Improving Your Daily Workflow
 =============================
 
-  <<(../content/workflow/stashing.md)
-  <<(../content/workflow/ignoring.md)
   <<(../content/workflow/aliases.md)
+  <<(../content/workflow/ignoring.md)
+  <<(../content/workflow/stashing.md)
 
 Branching
 =========
 
-  <<(../content/branches/review.md)
+  <<(../content/branches/basics.md)
   <<(../content/branches/diff.md)
   <<(../content/branches/visualizing.md)
   <<(../content/branches/deleting.md)
