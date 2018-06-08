@@ -1,5 +1,6 @@
 ---
 title: "Intermediate Git"
+subtitle: "Making Better Use of Git"
 
 author:
   - name: "Peter J. Jones"
@@ -26,36 +27,16 @@ The source code for this course can be found at the following URL:
 
 ### What's In Store {.unnumbered}
 
-  Day 1                   Day 2
-  --------------          --------------
-  Git Basics Review       Workflow Management
-                          Rest and Checkout
-  Branching and Merging   History and Rewriting
-  Rebasing                Bisecting
-  Cherry Picking          Remotes
+  | Before Lunch | After Lunch |
+  |--------------+-------------|
+  | TBD          | TBD         |
 
-Git Review
-==========
 
-  <<(../content/core/intro.md)
-  <<(../content/core/basics.md)
-  <<(../content/core/config.md)
-  <<(../content/core/files.md)
-Branching
-=========
+Reviewing Branching and Merging
+===============================
 
   <<(../content/branches/review.md)
-  <<(../content/branches/diff.md)
-  <<(../content/branches/visualizing.md)
-  <<(../content/branches/deleting.md)
-
-Merging
-=======
-
   <<(../content/merging/basics.md)
-  <<(../content/merging/conflicts.md)
-  <<(../content/merging/advanced.md)
-  <<(../content/merging/remotes.md)
 
 Rebasing
 ========
@@ -64,6 +45,7 @@ Rebasing
   <<(../content/rebasing/from-ancestor.md)
   <<(../content/rebasing/from-remote.md)
   <<(../content/rebasing/interactive.md)
+  <<(../content/history/squash.md)
   <<(../content/rebasing/trouble.md)
 
 Resetting Trees
@@ -75,27 +57,11 @@ Resetting Trees
   <<(../content/resetting/hard.md)
   <<(../content/resetting/uses.md)
 
-Reviewing and Editing the Commit History
-========================================
-
-  <<(../content/history/basic.md)
-  <<(../content/history/mistakes.md)
-  <<(../content/history/squash.md)
 
 Improving Your Daily Workflow
 =============================
 
   <<(../content/workflow/interactive-staging.md)
-  <<(../content/workflow/stashing.md)
-  <<(../content/workflow/ignoring.md)
-  <<(../content/workflow/aliases.md)
-
-Remote Repositories
-===================
-
-  <<(../content/external/remotes.md)
-  <<(../content/external/sync.md)
-  <<(../content/external/tracking.md)
 
 Including External Repositories
 ===============================
@@ -114,15 +80,26 @@ Workflow Management
 ===================
 
   <<(../content/workflow/branches.md)
-  <<(../content/workflow/tagging.md)
 
 Advanced Concepts
 =================
 
-  * Git Object Types
+Git Object Types
+----------------
 
-  * Content-Addressable Names
+TBD
 
-  * Pack Files
+Content-Addressable Names
+-------------------------
 
-  * Bundles
+TBD
+
+Pack Files
+----------
+
+TBD
+
+Bundles
+-------
+
+TBD
