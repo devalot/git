@@ -74,4 +74,10 @@ To see the history of all branches you've worked on:
 $ git reflog --all
 ~~~
 
+Reference log with dates:
+
+~~~
+$ git log -g --pretty=format:"%h %cd %gd %gs"
+~~~
+
 (Entries in the reflog are automatically removed after 90 days.)
