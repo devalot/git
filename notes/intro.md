@@ -1,5 +1,5 @@
-Welcome to Git and GitLab
-=========================
+Welcome to Git!
+===============
 
 **Please do the following:**
 
@@ -12,9 +12,7 @@ Welcome to Git and GitLab
 
   3. **Extract** the ZIP file
 
-  4. Then open the course PDF file:
-
-     handouts/vmw-git-gitlab.pdf
+  4. Then open the course PDF file in the `handouts` folder
 
 Introductions
 -------------
