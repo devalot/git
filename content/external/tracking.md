@@ -6,8 +6,8 @@ Tracking Branches
 ![](../../diagrams/external/tracking.dot)\
 <!-- Placeholder -->
 
-A *tracking branch* is linked to a specific remote repository and
-branch.
+A *tracking branch* is branch that is linked to a specific remote
+repository.
 
 ### Creating Tracking Branches ###
 
