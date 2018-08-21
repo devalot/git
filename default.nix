@@ -28,7 +28,7 @@ in
 pkgs.stdenv.mkDerivation rec {
   name = "gitclass-${version}";
   version = "1.3";
-  src = builtins.fetchGit ./.;
+  src = ./.;
 
   # Specifically don't want fixups for this package:
   phases = [ "unpackPhase" "buildPhase" "installPhase" ];
