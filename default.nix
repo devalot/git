@@ -86,5 +86,8 @@ pkgs.stdenv.mkDerivation rec {
 
     # Build archives:
     ( cd $out && zip -9 -y -r -q ${name}.zip ${name} )
+
+    # Link archive to generic name (for the NixOS container I use):
+    ( cd $out && ln -nfs ${name}.zip gitclass.zip )
   '';
 }
