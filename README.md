@@ -5,10 +5,13 @@ This is the source code and training content for the Git course taught
 by [Peter J. Jones][pjones].
 
 The official site for this course is
-<https://github.com/devalot/gitclass>
+<https://github.com/devalot/gitclass>.
 
-Building the Course Content (PDF Files)
----------------------------------------
+The generated PDFs and repositories used in this class can be
+downloaded from <https://www.devalot.com/r/gitclass.zip>.
+
+Building the Course Content (PDF Files and Repositories)
+--------------------------------------------------------
 
   1. Install the [Nix Package Manager](https://nixos.org/nix/) (`>=`
      2.0 is required)
