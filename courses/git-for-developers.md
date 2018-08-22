@@ -25,6 +25,9 @@ The source code for this course can be found at the following URL:
 
 <https://github.com/devalot/git>
 
+Agenda {.unnumbered}
+--------------------
+
 ### What's In Store {.unnumbered}
 
   | Day One                | Day Two           |
@@ -34,6 +37,15 @@ The source code for this course can be found at the following URL:
   | Daily Workflow         | Remotes           |
   | Branching              | Resetting         |
   | Tagging                | Branch Management |
+
+Getting Help After the Class {.unnumbered}
+------------------------------------------
+
+### Git Resources ### {.unnumbered}
+
+  * Git [Command Reference](https://git-scm.com/docs)
+
+  * Pro Git Book [Online Version](https://git-scm.com/book/en/v2)
 
 Git Introduction and Basics
 ===========================
