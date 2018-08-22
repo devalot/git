@@ -61,6 +61,7 @@ Reviewing and Editing the Commit History
   <<(../content/history/mistakes.md#ex-unstage)
   <<(../content/history/mistakes.md#ex-checkout)
   <<(../content/history/mistakes.md#ex-any-commit)
+  <<(../content/history/mistakes.md#ex-revert)
   <<(../content/history/squash.md#ex-squash)
 
 Improving Your Daily Workflow

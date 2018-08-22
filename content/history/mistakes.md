@@ -137,3 +137,35 @@ from any previous version.
      version number to `main.c`
 
   #. Restore `main.c` to its content before the version number was added
+
+### Reverting a Commit ###
+
+Sometimes an entire commit needs to be undone.
+
+    $ git revert <commit>
+
+...will create a new commit that reverses the changes in `<commit>`
+
+### Exercise: Reverting a Commit ### {#ex-revert}
+
+<div class="notes">
+
+Goal: Practice using the `git revert` command to undo a specific
+commit and see how the repository's history changes.
+
+</div>
+
+  #. Change to the directory holding a clone of the following
+     repository:
+
+        repos/basic.git
+
+  #. Create a branch that starts at the commit named `merge-start`
+
+        $ git checkout -b NAME merge-start
+
+  #. Edit the `main.c` file, making a simple change to it
+
+  #. Commit the change
+
+  #. Revert the commit you just created
