@@ -12,7 +12,9 @@ Welcome to Git!
 
   3. **Extract** the ZIP file
 
-  4. Then open the course PDF file in the `handouts` folder
+  4. Then open the course PDF file in the `handouts` folder:
+
+        handouts/git-for-developers.pdf
 
 Introductions
 -------------
