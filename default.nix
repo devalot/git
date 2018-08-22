@@ -27,7 +27,7 @@ in
 
 pkgs.stdenv.mkDerivation rec {
   name = "gitclass-${version}";
-  version = "1.3";
+  version = "1.4";
   src = ./.;
 
   # Specifically don't want fixups for this package:
