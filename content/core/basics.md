@@ -3,6 +3,8 @@ Trees and Commits
 
 ### Working Directory, Index, and Repository ### {#trees}
 
+The three "trees":
+
 Working Directory
   : The project's files as you and your tools see them.
 
@@ -34,11 +36,11 @@ To get a copy of an existing repository you *clone* it:
 
   #. Change to the following directory:
 
-        repos
+         repos
 
   #. Clone the `basic.git` repository:
 
-        $ git clone basic.git
+         $ git clone basic.git
 
   #. This should have created a `basic` directory
 
@@ -47,14 +49,14 @@ To get a copy of an existing repository you *clone* it:
   #. Change to the directory holding a clone of the following
      repository:
 
-        repos/basic.git
+         repos/basic.git
 
   #. Use the following command to see the commit history:
 
-        $ git log --oneline
+         $ git log --oneline
 
   #. Pick a commit and run:
 
-        $ git cat-file -p <commit>
+         $ git cat-file -p <commit>
 
   #. Also `cat-file` the listed tree, then the listed blob

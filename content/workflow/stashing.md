@@ -52,7 +52,7 @@ index and working directory.
   #. Change to the directory holding a clone of the following
      repository:
 
-        repos/conflicts.git
+         repos/conflicts.git
 
   #. Create a branch that starts off the `origin/feature` branch
 

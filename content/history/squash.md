@@ -46,11 +46,11 @@ single commit.
   #. Change to the directory holding a clone of the following
      repository:
 
-        repos/basic.git
+         repos/basic.git
 
   #. Create a branch that starts at the commit named `merge-start`
 
-        $ git checkout -b NAME merge-start
+         $ git checkout -b NAME merge-start
 
   #. Take note of the commit history
 

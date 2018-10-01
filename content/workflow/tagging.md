@@ -72,7 +72,7 @@ them.
   #. Change to the directory holding a clone of the following
      repository:
 
-        repos/basic.git
+         repos/basic.git
 
   #. Create a tag called `v1.1`
 

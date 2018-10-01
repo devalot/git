@@ -64,7 +64,7 @@ conflict resolution strategy.
   #. Change to the directory holding a clone of the following
      repository:
 
-        repos/conflicts.git
+         repos/conflicts.git
 
   #. Create a new branch whose ancestor is the commit before `HEAD`
 

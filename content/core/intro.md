@@ -1,6 +1,16 @@
 Introduction to Git
 -------------------
 
+### Why Use a Source Code Control System? ###
+
+  * It's a time machine for code and assets
+
+  * Coordinate work among project contributors
+
+  * Track what changes went into which releases
+
+  * Record *why* something changed and who made the change
+
 ### Centralized Systems: Subversion, Perforce, etc. ###
 
 ![](../../diagrams/core/centralized.dot)\

@@ -17,12 +17,12 @@ to match upstream you have two choices:
 
   #. Fetch and then merge:
 
-        $ git fetch <remote>
-        $ git merge origin/master
+         $ git fetch <remote>
+         $ git merge origin/master
 
   #. Use `git pull`:
 
-        $ git pull origin master
+         $ git pull origin master
 
 (Note: if you are on a tracking branch you can use `git pull` without
 any arguments.)

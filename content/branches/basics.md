@@ -64,7 +64,7 @@ Goal: Practice using `git checkout` to move the `HEAD` pointer.
   #. Change to the directory holding a clone of the following
      repository:
 
-        repos/basic.git
+         repos/basic.git
 
   #. List the names of all branches
 
@@ -111,7 +111,7 @@ Goal: Practice creating and switching branches.
   #. Change to the directory holding a clone of the following
      repository:
 
-        repos/basic.git
+         repos/basic.git
 
   #. Switch to the `master` branch
 
@@ -119,7 +119,7 @@ Goal: Practice creating and switching branches.
 
   #. Use `git log` to see the latest commit:
 
-        $ git log --oneline -1
+         $ git log --oneline -1
 
   #. Create a branch called `f2` that starts at `merge-start`
 

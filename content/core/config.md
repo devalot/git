@@ -30,7 +30,7 @@ If you haven't done so previously:
 
   #. Verify your settings:
 
-        $ git config --list
+         $ git config --list
 
 ### Exercise: Telling Git Which Editor to Use ### {#ex-editor}
 
@@ -44,7 +44,7 @@ If you haven't done so previously:
 
   #. Tell Git which text editor to use:
 
-        $ git config --global core.editor <program>
+         $ git config --global core.editor <program>
 
      Here are some examples for `<program>`:
 

@@ -41,11 +41,11 @@ commit message.
   #. Change to the directory holding a clone of the following
      repository:
 
-        repos/basic.git
+         repos/basic.git
 
   #. Create a branch that starts at the commit named `merge-start`
 
-        $ git checkout -b NAME merge-start
+         $ git checkout -b NAME merge-start
 
   #. Take note of the last commit hash
 
@@ -79,11 +79,11 @@ alias to act as a shortcut for this common task.
   #. Change to the directory holding a clone of the following
      repository:
 
-        repos/basic.git
+         repos/basic.git
 
   #. Create a branch that starts at the commit named `merge-start`
 
-        $ git checkout -b NAME merge-start
+         $ git checkout -b NAME merge-start
 
   #. Edit the `main.c` file, making a simple change to it
 
@@ -114,7 +114,7 @@ commit.
   #. Change to the directory holding a clone of the following
      repository:
 
-        repos/basic.git
+         repos/basic.git
 
   #. In the last exercise we changed the `main.c` file, restore it
      back to its previous state
@@ -131,7 +131,7 @@ from any previous version.
   #. Change to the directory holding a clone of the following
      repository:
 
-        repos/basic.git
+         repos/basic.git
 
   #. Look through the commit history and find the commit that added a
      version number to `main.c`
@@ -158,11 +158,11 @@ commit and see how the repository's history changes.
   #. Change to the directory holding a clone of the following
      repository:
 
-        repos/basic.git
+         repos/basic.git
 
   #. Create a branch that starts at the commit named `merge-start`
 
-        $ git checkout -b NAME merge-start
+         $ git checkout -b NAME merge-start
 
   #. Edit the `main.c` file, making a simple change to it
 

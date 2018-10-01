@@ -14,7 +14,7 @@ Welcome to Git!
 
   4. Then open the course PDF file in the `handouts` folder:
 
-        handouts/git-for-developers.pdf
+         handouts/git-for-developers.pdf
 
 Introductions
 -------------

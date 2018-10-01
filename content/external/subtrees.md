@@ -59,7 +59,7 @@ going to experiment with the following features:
   #. Change to the directory holding a clone of the following
      repository:
 
-        repos/subtrees.git
+         repos/subtrees.git
 
   #. Alter the `other/main.c` file and commit the change
 

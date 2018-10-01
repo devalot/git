@@ -9,11 +9,11 @@ Simplifying Common Commands with Aliases
 
   * For example:
 
-        $ git unstage main.c
+         $ git unstage main.c
 
     Could be an alias for:
 
-        $ git reset HEAD -- main.c
+         $ git reset HEAD -- main.c
 
 ### Creating New Aliases ###
 

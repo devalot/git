@@ -8,11 +8,11 @@ Adding, Renaming, and Removing Files
 
   * You can see what Git thinks about a file using `git status`:
 
-        $ git status <file>
+         $ git status <file>
 
   * To tell Git to start tracking the file use `git add`:
 
-        $ git add <file>
+         $ git add <file>
 
   * This creates a commit object to hold the file
 
@@ -20,7 +20,7 @@ Adding, Renaming, and Removing Files
 
   * To record your change to the repository use `git commit`:
 
-        $ git commit
+         $ git commit
 
 ### Exercise: Adding a New File ### {#ex-add}
 
@@ -34,7 +34,7 @@ responds at each step.
   #. Change to the directory holding a clone of the following
      repository:
 
-        repos/basic.git
+         repos/basic.git
 
   #. Create a new file called `config.h`
 
@@ -72,7 +72,7 @@ responds, and then staging and committing those changes.
   #. Change to the directory holding a clone of the following
      repository:
 
-        repos/basic.git
+         repos/basic.git
 
   #. Edit the `main.c` file
 
@@ -92,7 +92,7 @@ Git allows you to rename files in two different ways:
 
   #. Use Git to rename the file:
 
-        $ git mv <old> <new>
+         $ git mv <old> <new>
 
 When you rename files Git will track the rename in the repository.
 
@@ -111,7 +111,7 @@ response along the way.
   #. Change to the directory holding a clone of the following
      repository:
 
-        repos/basic.git
+         repos/basic.git
 
   #. Rename the `config.h` file from the previous exercise to `init.h`
 
@@ -146,7 +146,7 @@ Goal: Practice deleting a file and then restoring it.
   #. Change to the directory holding a clone of the following
      repository:
 
-        repos/basic.git
+         repos/basic.git
 
   #. Remove the `init.h` file
 

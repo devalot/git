@@ -73,7 +73,7 @@ Goal: Practice interacting with Subversion through the `git svn` tool.
 
   #. Clone the repository with `git svn`:
 
-        $ git svn clone file://<path>/trunk
+         $ git svn clone file://<path>/trunk
 
      (Note: replace `<path>` with a path that makes sense on your
      computer.)
@@ -84,4 +84,4 @@ Goal: Practice interacting with Subversion through the `git svn` tool.
 
   #. Push the commit to Subversion:
 
-        $ git svn dcommit
+         $ git svn dcommit

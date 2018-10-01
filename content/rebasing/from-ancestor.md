@@ -41,11 +41,11 @@ We'll also review the new commits that Git created.
   #. Change to the directory holding a clone of the following
      repository:
 
-        repos/basic.git
+         repos/basic.git
 
   #. Create a branch that starts at the commit named `merge-start`
 
-        $ git checkout -b NAME merge-start
+         $ git checkout -b NAME merge-start
 
   #. Use `git log --oneline` to review the commit history
 
@@ -66,11 +66,11 @@ like before, but this time in the presence of merge conflicts.
   #. Change to the directory holding a clone of the following
      repository:
 
-        repos/conflicts.git
+         repos/conflicts.git
 
   #. Create a branch that starts at the commit named `merge-start`
 
-        $ git checkout -b NAME conflict-start
+         $ git checkout -b NAME conflict-start
 
   #. Use `git log --oneline` to review the commit history
 

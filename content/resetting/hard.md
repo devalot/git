@@ -28,17 +28,17 @@ to the working directory are **lost** during a hard reset.
   #. Change to the directory holding a clone of the following
      repository:
 
-        repos/basic.git
+         repos/basic.git
 
   #. Create a branch that starts at the commit named `merge-start`
 
-        $ git checkout -b NAME merge-start
+         $ git checkout -b NAME merge-start
 
   #. Use `git log --oneline` to review the commit history
 
   #. Use `git reset --hard` to back up 2 commits:
 
-        $ git reset --hard HEAD~2
+         $ git reset --hard HEAD~2
 
   #. Use `git log --oneline` to see how the history changed
 

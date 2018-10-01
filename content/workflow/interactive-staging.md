@@ -31,11 +31,11 @@ There are two ways to stage individual patch hunks:
 
   #. Enter the interactive staging tool:
 
-        $ git add -i
+         $ git add -i
 
   #. Select the `patch` tool:
 
-        What now> patch
+         What now> patch
 
 Alternatively, you can jump right into the patch tool with:
 
@@ -62,7 +62,7 @@ rest of the file unstaged.
   #. Change to the directory holding a clone of the following
      repository:
 
-        repos/conflicts.git
+         repos/conflicts.git
 
   #. Create a branch that starts off the `origin/feature` branch
 
@@ -70,16 +70,16 @@ rest of the file unstaged.
 
   #. Review the difference between the working directory and the index:
 
-        $ git diff
+         $ git diff
 
   #. Interactively stage one of the patch hunks by splitting the first
      hunk:
 
-        $ git add -p main.c
-        ...
-        Stage this hunk [y,n,q,a,d,/,j,J,g,e,?]? s
+         $ git add -p main.c
+         ...
+         Stage this hunk [y,n,q,a,d,/,j,J,g,e,?]? s
 
   #. Review the updated index:
 
-        $ git status
-        $ git diff --cached
+         $ git status
+         $ git diff --cached

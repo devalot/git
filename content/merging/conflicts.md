@@ -49,11 +49,11 @@ another.
   #. Change to the directory holding a clone of the following
      repository:
 
-        repos/conflicts.git
+         repos/conflicts.git
 
   #. Create and switch to a new branch that starts at `v1.0`:
 
-        $ git checkout -b NAME v1.0
+         $ git checkout -b NAME v1.0
 
   #. Merge the `origin/feature` branch into your new branch
 

@@ -65,7 +65,7 @@ Goal: Practice editing commits by performing an interactive rebase.
   #. Change to the directory holding a clone of the following
      repository:
 
-        repos/basic.git
+         repos/basic.git
 
   #. Create a branch that starts at the commit named `merge-start`
 
@@ -74,8 +74,8 @@ Goal: Practice editing commits by performing an interactive rebase.
 
   #. Amend the commit when the rebase stops on it:
 
-        $ git commit --amend
+         $ git commit --amend
 
   #. Resume the rebase:
 
-        $ git rebase --continue
+         $ git rebase --continue

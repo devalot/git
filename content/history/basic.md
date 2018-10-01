@@ -20,15 +20,15 @@ three most common ways of calling it are:
 
   #. Basic details with full commit message:
 
-        $ git log
+         $ git log
 
   #. Single line output with commit subject:
 
-        $ git log --oneline
+         $ git log --oneline
 
   #. Basic details with `diff` output:
 
-        $ git log --patch
+         $ git log --patch
 
 ### Customizing the Commit Log ###
 
@@ -49,15 +49,15 @@ involving a string:
 
   * Find commits that added or removed lines containing `printf`:
 
-        $ git log -G printf
+         $ git log -G printf
 
   * The same, but with regular expressions:
 
-        $ git log -G 's?printf'
+         $ git log -G 's?printf'
 
   * Must change the number of occurrences:
 
-        $ git log -S printf
+         $ git log -S printf
 
 ### The Reference Log ###
 

@@ -41,11 +41,11 @@ into another branch through merging.
 
   #. Switch to the destination branch:
 
-        $ git checkout master
+         $ git checkout master
 
   #. Merge in the other branch:
 
-        $ git merge feature
+         $ git merge feature
 
   #. Write a commit message in your text editor
 
@@ -61,10 +61,10 @@ resulting merge commit.
   #. Change to the directory holding a clone of the following
      repository:
 
-        repos/basic.git
+         repos/basic.git
 
   #. Create and switch to a new branch that starts at `v1.0`:
 
-        $ git checkout -b NAME v1.0
+         $ git checkout -b NAME v1.0
 
   #. Merge the `origin/feature` branch into your new branch

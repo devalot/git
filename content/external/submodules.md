@@ -14,17 +14,17 @@ Use the `git submodule add` command to import another repository.
 
   #. You need the URL for the other repository, we'll use:
 
-        https://github.com/pjones/emacsrc.git
+         https://github.com/pjones/emacsrc.git
 
   #. You need to decide what directory to place the repository into,
      we'll use:
 
-        emacsrc
+         emacsrc
 
   #. Add the external repository:
 
-        $ git submodule add \
-            https://github.com/pjones/emacsrc.git emacsrc
+         $ git submodule add \
+             https://github.com/pjones/emacsrc.git emacsrc
 
 <!-- git submodule add -->
 
@@ -35,13 +35,13 @@ submodules by default.  You have two choices:
 
   #. Clone then initialize submodules:
 
-        $ git clone <url>
-        $ cd <dir>
-        $ git submodule update --init
+         $ git clone <url>
+         $ cd <dir>
+         $ git submodule update --init
 
   #. Use a recursive clone:
 
-        $ git clone --recurse-submodules <url>
+         $ git clone --recurse-submodules <url>
 
 ### Understanding Submodules ###
 
@@ -64,12 +64,12 @@ changed.  There are two ways to update the submodule:
 
   #. Update all submodules:
 
-        $ git pull
-        $ git submodule update
+         $ git pull
+         $ git submodule update
 
   #. When doing the pull, fetch submodules too:
 
-        $ git pull --recurse-submodules
+         $ git pull --recurse-submodules
 
 <div class="notes">
 
@@ -118,15 +118,15 @@ have several options:
 
   * Bring the submodule up-to-date with its upstream branch:
 
-        $ git submodule update --remote --checkout
-        $ cd <dir>
-        $ git checkout master
+         $ git submodule update --remote --checkout
+         $ cd <dir>
+         $ git checkout master
 
   * Manually move it to a branch and pull:
 
-        $ cd <dir>
-        $ git checkout master
-        $ git pull
+         $ cd <dir>
+         $ git checkout master
+         $ git pull
 
 ### Publishing Changes to Submodules ###
 
@@ -141,11 +141,11 @@ To push the submodule changes you can either:
 
   #. Push each submodule individually:
 
-        $ git submodule foreach 'git push'
+         $ git submodule foreach 'git push'
 
   #. Push the project and submodules at the same time:
 
-        $ git push --recurse-submodules=on-demand
+         $ git push --recurse-submodules=on-demand
 
 <div class="notes">
 
@@ -180,7 +180,7 @@ of `master` so you can easily jump back to the previous state.
   #. Change to the directory holding a clone of the following
      repository:
 
-        repos/submodules.git
+         repos/submodules.git
 
   #. Go into the `other` submodule and see what branch it is on
 

@@ -9,7 +9,7 @@ Remote Repositories
 
   * You can list remotes with the following command:
 
-        $ git remote -v show
+         $ git remote -v show
 
 ### Exercise: Listing Remotes ### {#ex-list}
 
