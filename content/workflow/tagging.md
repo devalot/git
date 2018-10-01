@@ -74,7 +74,7 @@ them.
 
         repos/basic.git
 
-  #. Create a tag called `v1.0`
+  #. Create a tag called `v1.1`
 
   #. Use `git tag --list` to list your tags
 
