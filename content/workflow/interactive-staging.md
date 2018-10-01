@@ -66,7 +66,7 @@ rest of the file unstaged.
 
   #. Create a branch that starts off the `origin/feature` branch
 
-  #. Reset the index and working directory to `HEAD^`
+  #. Edit `main.c`; add comments to the top and bottom of the file
 
   #. Review the difference between the working directory and the index:
 

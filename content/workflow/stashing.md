@@ -56,7 +56,7 @@ index and working directory.
 
   #. Create a branch that starts off the `origin/feature` branch
 
-  #. Reset the index and working directory to `HEAD^`
+  #. Add a comment to the bottom of `main.c`
 
   #. Create a new stash
 
