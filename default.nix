@@ -13,7 +13,7 @@ in
 
 edify.mkDerivation rec {
   name = "gitclass-${version}";
-  version = "1.4";
+  version = "1.5";
   src = ./.;
 
   # Tell TeX where we keep STY files:
